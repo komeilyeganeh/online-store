@@ -1,0 +1,31 @@
+/* [project]/app/yekanfont_461dd7e3.module.css [app-client] (css) */
+@font-face {
+  font-family: yekanFont;
+  src: url("../media/YekanBakhFaNum_Regular-s.p.7674c1b2.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: yekanFont;
+  src: url("../media/YekanBakhFaNum_Regular-s.p.32feaaed.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: yekanFont Fallback;
+  src: local(Arial);
+  ascent-override: 99.72%;
+  descent-override: 54.84%;
+  line-gap-override: 0.0%;
+  size-adjust: 100.28%;
+}
+
+.yekanfont_461dd7e3-module__qe0x3a__className {
+  font-family: yekanFont, yekanFont Fallback;
+}
+
+.yekanfont_461dd7e3-module__qe0x3a__variable {
+  --font-yekan: "yekanFont", "yekanFont Fallback";
+}
+
+/*# sourceMappingURL=app_yekanfont_461dd7e3_module_b52d8e.css.map*/

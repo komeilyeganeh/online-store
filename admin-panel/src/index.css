@@ -1,0 +1,39 @@
+/* ---- google font (inter) ---- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* ---- farsi font ---- */
+@font-face {
+  font-family: 'yekan';
+  src: url("./assets/fonts/YekanBakhFaNum-Regular.ttf") format("TrueType"),
+      url("./assets/fonts/YekanBakhFaNum-Regular.woff") format("woff");
+}
+
+:lang(en) {
+  font-family: "Inter", serif;
+}
+:lang(fa) {
+  font-family: 'yekan';
+}
+
+:root {
+  --color-light: #fff;
+  --color-primary: #eb5e28;
+}
+
+/* ---- reset css ---- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ---- global styles ---- */
+body {
+  background-color: var(--color-light);
+}
+ul {
+  list-style: none;
+}
+input {
+  outline: none;
+}
