@@ -18,6 +18,9 @@
 :root {
   --color-light: #fff;
   --color-primary: #eb5e28;
+  --color-primary-light: #eb5f2838;
+  --color-gray: #ddd; 
+  --color-dark: #222;
 }
 
 /* ---- reset css ---- */
@@ -36,4 +39,7 @@ ul {
 }
 input {
   outline: none;
+}
+a {
+  text-decoration: none;
 }

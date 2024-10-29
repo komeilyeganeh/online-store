@@ -1,0 +1,12 @@
+.search__box_wrapper {
+    position: relative;
+}
+.search__box_input {
+    padding-left: 2.2rem;
+}
+.search__box_icon {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}

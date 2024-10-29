@@ -1,0 +1,40 @@
+{
+    "navbar-links": [
+        {
+            "id": 1,
+            "titleEN": "Dashboard",
+            "titleFA": "داشبورد",
+            "url": "/"
+        },
+        {
+            "id": 2,
+            "titleEN": "Products",
+            "titleFA": "داشبورد",
+            "url": "/products"
+        },
+        {
+            "id": 3,
+            "titleEN": "Categories",
+            "titleFA": "دسته بندی ها",
+            "url": "/categories"
+        },
+        {
+            "id": 4,
+            "titleEN": "Order",
+            "titleFA": "سفارش",
+            "url": "/order"
+        },
+        {
+            "id": 5,
+            "titleEN": "Users",
+            "titleFA": "کاربران",
+            "url": "/users"
+        },
+        {
+            "id": 6,
+            "titleEN": "Invoice",
+            "titleFA": "فاکتور",
+            "url": "/invoice"
+        }
+    ]
+}
