@@ -1,0 +1,26 @@
+.section__summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.section__summary_card {
+    padding: 16px;
+    background-color: var(--color-light);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.section__summary_card_text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.section__summary_card_text p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.section__summary_card_text strong {
+    font-size: 1.3rem;
+    font-weight: bold;
+}

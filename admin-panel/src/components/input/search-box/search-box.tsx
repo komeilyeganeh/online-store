@@ -1,9 +1,11 @@
 import { Input } from "@components";
-import { t } from "i18next";
 import { FiSearch } from "react-icons/fi";
 import classes from "./search-box.module.css";
+import { useTranslation } from "react-i18next";
 
 export const SearchBox: React.FC = () => {
+  // ---- hooks ----
+  const { t } = useTranslation();
   // ---- jsx return ----
   return (
     <div className={classes.search__box_wrapper}>

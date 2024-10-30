@@ -6,4 +6,6 @@ export * from "./header/header";
 export * from "./input/input";
 export * from "./input/search-box/search-box";
 export * from "./fullscreen/fullscreen"
-export * from "./theme/theme"
+export * from "./theme/theme";
+export * from "./language/language"
+export * from "./profile-action/profile-action"

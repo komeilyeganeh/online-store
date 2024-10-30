@@ -12,7 +12,7 @@ i18n.use(initReactI18next).init({
         translation: FAJson
     },
   },
-  lng: "en",
+  lng: localStorage.getItem("lng-online-store") ?? "en",
 });
 
 export default i18n;

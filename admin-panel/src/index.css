@@ -31,6 +31,15 @@
 }
 
 /* ---- global styles ---- */
+
+/* rtl styles */
+:lang(fa) body {
+  direction: rtl;
+}
+
+
+
+
 body {
   background-color: var(--color-light);
 }

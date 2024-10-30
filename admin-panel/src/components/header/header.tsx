@@ -1,4 +1,4 @@
-import { SearchBox, FullScreen, ToggleTheme } from "@components";
+import { SearchBox, FullScreen, ToggleTheme, Language, ProfileAction } from "@components";
 import classes from "./header.module.css";
 
 export const Header: React.FC = () => {
@@ -12,6 +12,8 @@ export const Header: React.FC = () => {
       <div className={classes.header__items}>
        <FullScreen />
        <ToggleTheme />
+       <Language />
+       <ProfileAction />
       </div>
     </header>
   );

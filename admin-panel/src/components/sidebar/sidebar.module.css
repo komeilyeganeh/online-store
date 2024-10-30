@@ -1,5 +1,12 @@
 .sidebar {
     height: 100vh;
-    border-right: 1px solid var(--color-gray);
     padding: 2rem 1rem;
+}
+
+/* ---- rtl-ltr styles ---- */
+:lang(fa) .sidebar {
+    border-left: 1px solid var(--color-gray);
+}
+:lang(en) .sidebar {
+    border-right: 1px solid var(--color-gray);
 }

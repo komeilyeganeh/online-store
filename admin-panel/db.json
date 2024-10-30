@@ -1,40 +1,68 @@
 {
-    "navbar-links": [
-        {
-            "id": 1,
-            "titleEN": "Dashboard",
-            "titleFA": "داشبورد",
-            "url": "/"
-        },
-        {
-            "id": 2,
-            "titleEN": "Products",
-            "titleFA": "داشبورد",
-            "url": "/products"
-        },
-        {
-            "id": 3,
-            "titleEN": "Categories",
-            "titleFA": "دسته بندی ها",
-            "url": "/categories"
-        },
-        {
-            "id": 4,
-            "titleEN": "Order",
-            "titleFA": "سفارش",
-            "url": "/order"
-        },
-        {
-            "id": 5,
-            "titleEN": "Users",
-            "titleFA": "کاربران",
-            "url": "/users"
-        },
-        {
-            "id": 6,
-            "titleEN": "Invoice",
-            "titleFA": "فاکتور",
-            "url": "/invoice"
-        }
+  "navbar-links": [
+    {
+      "id": 1,
+      "titleEN": "Dashboard",
+      "titleFA": "داشبورد",
+      "url": "/"
+    },
+    {
+      "id": 2,
+      "titleEN": "Products",
+      "titleFA": "داشبورد",
+      "url": "/products"
+    },
+    {
+      "id": 3,
+      "titleEN": "Categories",
+      "titleFA": "دسته بندی ها",
+      "url": "/categories"
+    },
+    {
+      "id": 4,
+      "titleEN": "Order",
+      "titleFA": "سفارش",
+      "url": "/order"
+    },
+    {
+      "id": 5,
+      "titleEN": "Users",
+      "titleFA": "کاربران",
+      "url": "/users"
+    },
+    {
+      "id": 6,
+      "titleEN": "Invoice",
+      "titleFA": "فاکتور",
+      "url": "/invoice"
+    }
+  ],
+  "summary": {
+    "summary_one": [
+      {
+        "id": 1,
+        "titleEN": "Total Balance",
+        "titleFA": "کل موجودی",
+        "amount": "$56,776"
+      },
+      {
+        "id": 2,
+        "titleEN": "Total Profit",
+        "titleFA": "سود",
+        "amount": "$5,756"
+      },
+      {
+        "id": 3,
+        "titleEN": "Total Sales",
+        "titleFA": "فروش",
+        "amount": "4,106"
+      },
+      {
+        "id": 4,
+        "titleEN": "Total Customers",
+        "titleFA": "مشتریان",
+        "amount": "225"
+      }
     ]
+  }
 }

@@ -1,5 +1,10 @@
 {
     "input": {
         "search": "Search"
+    },
+    "profile": {
+        "profile": "Profile",
+        "settings": "Settings",
+        "logout": "Logout"
     }
 }
