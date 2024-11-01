@@ -43,25 +43,45 @@
         "id": 1,
         "titleEN": "Total Balance",
         "titleFA": "کل موجودی",
-        "amount": "$56,776"
+        "amount": "$56,776",
+        "chart": {
+          "name": "series1",
+          "data": [31, 40, 28, 51, 42],
+          "color": "#73EC8B"
+        }
       },
       {
         "id": 2,
         "titleEN": "Total Profit",
         "titleFA": "سود",
-        "amount": "$5,756"
+        "amount": "$5,756",
+        "chart": {
+          "name": "series2",
+          "data": [3, 33, 18, 1, 25],
+          "color": "#EB3678"
+        }
       },
       {
         "id": 3,
         "titleEN": "Total Sales",
         "titleFA": "فروش",
-        "amount": "4,106"
+        "amount": "4,106",
+        "chart": {
+          "name": "series3",
+          "data": [12, 63, 9, 18, 46],
+          "color": "#4CC9FE"
+        }
       },
       {
         "id": 4,
         "titleEN": "Total Customers",
         "titleFA": "مشتریان",
-        "amount": "225"
+        "amount": "225",
+        "chart": {
+          "name": "series4",
+          "data": [1,30, 19, 44, 3],
+          "color": "#FFAF00"
+        }
       }
     ]
   }

@@ -1,7 +1,13 @@
 .layout {
+    height: 100vh;
+    overflow: hidden;
     display: grid;
     grid-template-columns: 270px 1fr;
 }
 .main {
     padding: 2rem;
+}
+.content__wrapper {
+    position: relative;
+    overflow-y: auto;
 }

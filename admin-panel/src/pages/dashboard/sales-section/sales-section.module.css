@@ -1,0 +1,16 @@
+.sales__section {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+.sales__section_div {
+    width: 50%;
+     padding: 1.5rem;
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+.sales__section_left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

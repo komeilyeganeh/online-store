@@ -6,5 +6,14 @@
         "profile": "Profile",
         "settings": "Settings",
         "logout": "Logout"
+    },
+    "dashboard": {
+        "title_card": {
+            "sales_growth_chart": "Sales Growth Chart",
+            "sales_trafic_source": "Sales Trafic Source"
+        }
+    },
+    "footer": {
+        "content": "All rights reserved."
     }
 }
